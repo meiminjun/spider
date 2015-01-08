@@ -1,0 +1,19 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "网络爬虫与数据库操作",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.51.0",
+    "cheerio": "latest",
+    "mysql" : "2.5.4",
+    "debug" : "0.7.2",
+    "async" : "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jason",
+  "license": "ISC"
+}
