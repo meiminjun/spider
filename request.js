@@ -1,7 +1,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
-request('http://cnodejs.org/',function(error,response,body) {
-	if(!error && response.statusCode == 200) {
+request('http://cnodejs.org/', function(error, response, body) {
+	if (!error && response.statusCode == 200) {
 		// console.log(body);
 		var $ = cheerio.load(body);
 
@@ -9,6 +9,5 @@ request('http://cnodejs.org/',function(error,response,body) {
 		$('#sidebar-mask').text("Hello there");
 
 		console.log($.html());
-
 	}
 });
