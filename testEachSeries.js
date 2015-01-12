@@ -11,7 +11,6 @@ tt([1, 3, 2], function(ele, callback) {
 }, function(err) {
 	if (err) return console.log(err);
 	// console.log(err);
-})
+});
 
-		console.log(result);
-console.log('test');
+console.log(result);
